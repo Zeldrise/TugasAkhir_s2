@@ -1,5 +1,5 @@
 def input_data(books):
-    print("\n=" * 35)
+    print("=" * 35)
     print("      INPUT DATA 10 BUKU")
     print("=" * 35)
     
