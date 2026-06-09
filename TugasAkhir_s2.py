@@ -105,7 +105,7 @@ def laporan_stok_menipis(books):
             stok_kritis.append(buku)
     return stok_kritis
 
-
+def main():
     data_buku = []
     
     input_data(data_buku)
