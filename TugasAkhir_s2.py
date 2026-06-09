@@ -1,7 +1,3 @@
-# ==========================================
-# SISTEM MANAJEMEN TOKO BUKU "AKSARA"tes
-# ==========================================
-
 def input_data(books):
     print("\n=" * 35)
     print("      INPUT DATA 10 BUKU")
@@ -109,10 +105,7 @@ def laporan_stok_menipis(books):
             stok_kritis.append(buku)
     return stok_kritis
 
-# ==========================================
-# PROGRAM UTAMA (MENU INTERAKTIF)
-# ==========================================
-def main():
+
     data_buku = []
     
     input_data(data_buku)
